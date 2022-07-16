@@ -14,11 +14,11 @@ body {
     width: 100px;
 } */
 ul {
-    padding: 5px;
+    padding-top: 5px;
 }
 li {
     display: inline;
-    padding-left: 10px;
+    padding-right: 10px;
 }
 a {
     color: white;
@@ -28,6 +28,10 @@ a {
 }
 a:hover {
     color: bisque;
+}
+i {
+    color: white;
+    padding-right: 5px;
 }
 button:hover {
     cursor: pointer;
@@ -97,7 +101,7 @@ button:hover {
     border-radius: 5px;
     height: 40px;
     padding-inline-start: 10px;
-    width: 90%;
+    width: 93%;
 }
 .input-search {
     border: 1px solid transparent;
