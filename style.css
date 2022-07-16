@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 3900px;
+}
+button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 5px;
+    /* width: 100px; */
+}
+ul {
+    margin-top: 5px;
+}
+li {
+    display: inline;
+    padding-left: 5px;
+}
+a {
+    color: white;
+    font-size: small;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.nav {
+    background: linear-gradient(180deg,#f53d2d,#f63);
+    height: 119px;
+    position: relative;
+    width: 100%;
+}
+.nav-top {
+    background-color: transparent;
+    height: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: inherit;
+}
+.nav-top-left {
+    float: left;
+}
+.nav-top-right {
+    float: right;
+}
+.nav-buttom {
+    background-color: transparent;
+    height: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    position: relative;
+    width: inherit;
+}
+.nav-buttom-left {
+    float: left;
+    width: 15%;
+}
+.nav-buttom-center {
+    float: left;
+    height: 100%;
+    margin-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: relative;
+    width: 70%;
+}
+.nav-buttom-center-input {
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 55%;
+    width: 100%;
+}
+.nav-buttom-right {
+    float: right;
+    width: 15%;
+}
+.shopee-icons {
+    height: 65px;
+    width: fit-content;
+}
+.input {
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    height: 40px;
+    padding-inline-start: 10px;
+    width: 90%;
+}
+.input-search {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    float: right;
+    height: 37px;
+    width: fit-content;
+}
